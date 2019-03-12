@@ -30,15 +30,15 @@ To run the workflow follow the steps as mentioned below:
   
 ## Step 3: Modify var.in to specify all the input parameters
 The structure of var.in is as follows:
-300 <br/>
-14  <br/>
-5   <br/>
-0.8 <br/>
-0.2 <br/>
-1.0 <br/>
-10  <br/>
-2.2     5.5     2.8     1.3     0.4     0.24    30.0    10.7    27.0    50.70   15.00   1.60    4.50    74.0 <br/>
-2.4     5.9     3.0     2.0     0.7     0.38    45.2    16.1    40.7    76.20   23.00   2.41    6.80    85.0 <br/>
+300        # Size of the population (same as population_num in moga.c) <br/>
+14         # Total number of variables in the force field file that need modification<br/>
+5          # Total number of objectives <br/>
+0.8        # Cross-Over Probability<br/>
+0.2        # Mutation Probability<br/>
+1.0        # Degree of Mutation between [0-1]<br/>
+10         # Total number of divisions (will be read from hyperplane.in file, any value here will be ignored)<br/>
+2.2     5.5     2.8     1.3     0.4     0.24    30.0    10.7    27.0    50.70   15.00   1.60    4.50    74.0 # Lower bound of variables<br/>
+2.4     5.9     3.0     2.0     0.7     0.38    45.2    16.1    40.7    76.20   23.00   2.41    6.80    85.0 # Upper bound of variables<br/>
   
   
   
