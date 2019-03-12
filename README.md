@@ -15,3 +15,12 @@ To run the workflow follow the steps as mentioned below:
   `int iteration_num = 500;   // number of training iterations`
   
   `int population_num = 300; // population size for ga.in training`
+  
+  *to the total number of epochs and total population size required for the training*
+  
+  For example: If the total number of epochs is 300 and population size is 200 then modify as follows:
+  
+  `int iteration_num = 300;   // number of training iterations`
+  
+  `int population_num = 200; // population size for ga.in training`
+  
