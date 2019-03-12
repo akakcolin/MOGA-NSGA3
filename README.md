@@ -62,4 +62,4 @@ The structure of var.in is as follows:
   
 ### Computed error in specified objectives
 
-<img src="./Media/Picture3.png">
+<img src="./Media/Picture2.png">
