@@ -641,7 +641,7 @@ void processor_run(int id, int iter_num, char folder[], char inputs[])
     mkdir(folder,S_IRWXU);
     // copy cell, forcefield, etc. into folder
     
-    const char *gulp_in[6] = {"cell1", "cell2", "cell3"};
+    const char *gulp_in[6] = {"UTIL/cell1", "UTIL/cell2", "UTIL/cell3"};
     const char *states[3] = {"Compressed", "ZeroStrain", "Expanded"};
     const char *segment[3] = {"G_M","M_K","K_G"};
     char StateDir[200], CopyTo[200];
@@ -662,7 +662,7 @@ void processor_run(int id, int iter_num, char folder[], char inputs[])
 		}
 		else if (j==1)
 		{
-			strcpy(file, "forcefield");
+			strcpy(file, "UTIL/forcefield");
 			sprintf(CopyTo, "%s/%s", path, "forcefield");
 		}
 		file_copy(file, CopyTo, 0, i);	// 0 as last argument is just a place holder for creating a cell file at given path. It will overwritten for different regions
