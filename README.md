@@ -1,4 +1,12 @@
 # MOGA-NSGA3
 
-## Set up the environment
- 
+To run the workflow follow the steps as mentioned below:
+
+## Step 1: Provide data for running the force field fitting
+1. Put reference band structure data in UTIL folder as done in this repo.
+2. Put cell data corresponding to different states as cell1, cell2, cell3 
+3. Put the template forcefield which you wish to train
+
+
+## Step 2: Compile the nsga3 and worflow code:
+1. Go into src/ directory: `cd src/`
