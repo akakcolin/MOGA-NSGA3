@@ -12,7 +12,7 @@
 3. Put the template forcefield which you wish to train
 
 
-### Step 2: Compile the nsga3 and worflow code:
+### Step 2: Compile the nsga3 and workflow code:
 1. Go into src/ directory: `cd src/`
 2. Modify the following lines in moga.c:
 
@@ -56,6 +56,17 @@ The structure of var.in is as follows:
  
  This step generates hyperplane.in with appropriate number of reference points
 
+ 
+ ### Step 5: Running the code
+ 
+ For running the worflow make sure to clean up the workspace first by running <br/>
+ `sh cleanup.sh ${PopulationNumber}`
+ 
+ Then run the following command for tuning the force field parameters:
+  
+  `mpirun -n ${PopulationNumber} ./moga | tee log`
+  
+  This step runs moga workflow on ${PopulationNumber} parallel threads, each performing its own calculation independently and writes the  output to `log`
   
   
 <h2> Example : Forcefields for MoSe<sub>2</sub> monolayers</h2>
