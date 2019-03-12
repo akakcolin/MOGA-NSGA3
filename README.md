@@ -50,7 +50,6 @@ The structure of var.in is as follows:
  M = Total number of Objectives <br/>
  p = Total number of divisions  <br/>
  Hence, the total number of objectives generated will be <br/>
- <img src="https://latex.codecogs.com/svg.latex?\Large&space;{^M^+^p^-^1}C_p" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
-
+<a href="https://www.codecogs.com/eqnedit.php?latex={^M^&plus;^p^-^1}C_p" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{^M^&plus;^p^-^1}C_p" title="{^M^+^p^-^1}C_p" /></a>
   
   
