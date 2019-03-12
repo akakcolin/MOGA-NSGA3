@@ -51,5 +51,6 @@ The structure of var.in is as follows:
  p = Total number of divisions  <br/>
  Hence, the total number of objectives generated will be <br/>
 <img src="https://latex.codecogs.com/gif.latex?{^M^&plus;^p^-^1}C_p" title="{^M^+^p^-^1}C_p" />
+
   
   
