@@ -12,4 +12,5 @@ To run the workflow follow the steps as mentioned below:
 1. Go into src/ directory: `cd src/`
 2. Modify the following lines in moga.c:
   `int iteration_num = 500;   // number of training iterations`
+  
   `int population_num = 300; // population size for ga.in training`
