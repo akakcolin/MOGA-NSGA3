@@ -2,13 +2,13 @@
 
 To run the workflow follow the steps as mentioned below:
 
-## Step 1: Provide data for running the force field fitting
+### Step 1: Provide data for running the force field fitting
 1. Put reference band structure data in UTIL folder as done in this repo.
 2. Put cell data corresponding to different states as cell1, cell2, cell3 
 3. Put the template forcefield which you wish to train
 
 
-## Step 2: Compile the nsga3 and worflow code:
+### Step 2: Compile the nsga3 and worflow code:
 1. Go into src/ directory: `cd src/`
 2. Modify the following lines in moga.c:
 
@@ -28,7 +28,7 @@ To run the workflow follow the steps as mentioned below:
   
   `make`
   
-## Step 3: Modify var.in to specify all the input parameters
+### Step 3: Modify var.in to specify all the input parameters
 The structure of var.in is as follows:
 
 `300        # Size of the population (same as population_num in moga.c) `<br/>
@@ -43,7 +43,7 @@ The structure of var.in is as follows:
   
  Please modify each line with suitable values consistent with the comments corresponding each line
  
- ## Step 4: Create hyperplane.in file for reference point computation required by NSGA3 algorithm
+ ### Step 4: Create hyperplane.in file for reference point computation required by NSGA3 algorithm
  
  This can be done by running this code within matlab environment by calling the function <br/>
  `GenerateReferencePoints(M,p)` <br/>
