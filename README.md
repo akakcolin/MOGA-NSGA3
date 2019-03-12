@@ -62,6 +62,6 @@ The structure of var.in is as follows:
   
 ### Computed error in specified objectives
 
-<img src="./Media/Picture2.png">
+<img src="./Media/Picture2.png" width=800>
 
-*(a) error in lattice constant, (b) error in elastic modulus and (c) error in phonon dispersion curves*
+*Figure: (a) error in lattice constant, (b) error in elastic modulus and (c) error in phonon dispersion curves*
