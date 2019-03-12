@@ -2,6 +2,8 @@
 
 *This software uses 3rd generation non-dominated search based genetic algorithm go train Stillinger-Weber forcefield for thermal conducitivity simulations. For details related to using the software please follow the instructions below*
 
+<img src="./Media/Picture1.png">
+
 To run the workflow follow the steps as mentioned below:
 
 ## USAGE:
