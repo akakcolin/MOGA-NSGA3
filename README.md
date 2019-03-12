@@ -59,7 +59,9 @@ The structure of var.in is as follows:
   
   
 <h2> Example : Forcefields for MoSe<sub>2</sub> monolayers</h2>
-  
+
+The files for this calculation are provided in the Example folder and follow the strategy as mentioned in the paper
+
 ### Computed error in specified objectives
 
 <img src="./Media/Picture2.png" width=800>
