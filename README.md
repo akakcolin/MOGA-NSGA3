@@ -47,11 +47,10 @@ The structure of var.in is as follows:
  
  This can be done by running this code within matlab environment by calling the function <br/>
  `GenerateReferencePoints(M,p)` <br/>
- M = Total number of Objectives
- p = Total number of divisions
- Hence, the total number of objectives generated will be 
- \begin {equation}
- 
- \end {equation}
+ M = Total number of Objectives <br/>
+ p = Total number of divisions  <br/>
+ Hence, the total number of objectives generated will be <br/>
+ <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
   
   
