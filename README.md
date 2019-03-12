@@ -42,5 +42,10 @@ The structure of var.in is as follows:
 `2.4     5.9     3.0     2.0     0.7     0.38    45.2    16.1    40.7    76.20   23.00   2.41    6.80    85.0 # Upper bound of variables`<br/>
   
  Please modify each line with suitable values consistent with the comments corresponding each line
+ 
+ ## Step 4: Create hyperplane.in file for reference point computation required by NSGA3 algorithm
+ 
+ This can be done by running this code within matlab environment by calling the function <br/>
+ `GenerateReferencePoints(M,p)` <br/>
   
   
