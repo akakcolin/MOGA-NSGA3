@@ -66,7 +66,7 @@ The structure of var.in is as follows:
   
   `mpirun -n ${PopulationNumber} ./moga | tee log`
   
-  This step runs moga workflow on ${PopulationNumber} parallel threads, each performing its own calculation independently and writes the  output to `log`
+  This step runs moga workflow on `${PopulationNumber}` parallel threads, each performing its own calculation independently and writes the  output to `log`
   
   
 <h2> Example : Forcefields for MoSe<sub>2</sub> monolayers</h2>
