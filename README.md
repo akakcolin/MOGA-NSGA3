@@ -50,7 +50,7 @@ The structure of var.in is as follows:
  M = Total number of Objectives <br/>
  p = Total number of divisions  <br/>
  
- This step generates
+ This step generates hyperplane.in with appropriate number of reference points
 
   
   
