@@ -41,5 +41,6 @@ The structure of var.in is as follows:
 `2.2     5.5     2.8     1.3     0.4     0.24    30.0    10.7    27.0    50.70   15.00   1.60    4.50    74.0 # Lower bound of variables`<br/>
 `2.4     5.9     3.0     2.0     0.7     0.38    45.2    16.1    40.7    76.20   23.00   2.41    6.80    85.0 # Upper bound of variables`<br/>
   
+ Please modify each line with suitable values consistent with the comments corresponding each line
   
   
