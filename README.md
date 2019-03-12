@@ -47,5 +47,11 @@ The structure of var.in is as follows:
  
  This can be done by running this code within matlab environment by calling the function <br/>
  `GenerateReferencePoints(M,p)` <br/>
+ M = Total number of Objectives
+ p = Total number of divisions
+ Hence, the total number of objectives generated will be 
+ \begin {equation}
+ 
+ \end {equation}
   
   
