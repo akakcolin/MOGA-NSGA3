@@ -30,15 +30,15 @@ To run the workflow follow the steps as mentioned below:
   
 ## Step 3: Modify var.in to specify all the input parameters
 The structure of var.in is as follows:
-300
-14
-5
-0.8
-0.2
-1.0
-10
-2.2     5.5     2.8     1.3     0.4     0.24    30.0    10.7    27.0    50.70   15.00   1.60    4.50    74.0
-2.4     5.9     3.0     2.0     0.7     0.38    45.2    16.1    40.7    76.20   23.00   2.41    6.80    85.0
+300 <br/>
+14  <br/>
+5   <br/>
+0.8 <br/>
+0.2 <br/>
+1.0 <br/>
+10  <br/>
+2.2     5.5     2.8     1.3     0.4     0.24    30.0    10.7    27.0    50.70   15.00   1.60    4.50    74.0 <br/>
+2.4     5.9     3.0     2.0     0.7     0.38    45.2    16.1    40.7    76.20   23.00   2.41    6.80    85.0 <br/>
   
   
   
