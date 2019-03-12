@@ -30,8 +30,9 @@ To run the workflow follow the steps as mentioned below:
   
 ## Step 3: Modify var.in to specify all the input parameters
 The structure of var.in is as follows:
-`300        # Size of the population (same as population_num in moga.c) <br/>`
-14         # Total number of variables in the force field file that need modification<br/>
+
+`300        # Size of the population (same as population_num in moga.c) `<br/>
+`14         # Total number of variables in the force field file that need modification`<br/>
 5          # Total number of objectives <br/>
 0.8        # Cross-Over Probability<br/>
 0.2        # Mutation Probability<br/>
