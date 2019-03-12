@@ -1,6 +1,10 @@
 # MOGA-NSGA3
 
+*This software uses 3rd generation non-dominated search based genetic algorithm go train Stillinger-Weber forcefield for thermal conducitivity simulations. For details related to using the software please follow the instructions below*
+
 To run the workflow follow the steps as mentioned below:
+
+## USAGE:
 
 ### Step 1: Provide data for running the force field fitting
 1. Put reference band structure data in UTIL folder as done in this repo.
