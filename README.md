@@ -4,8 +4,6 @@
 
 <img src="./Media/Picture1.png" width=400>
 
-To run the workflow follow the steps as mentioned below:
-
 ## USAGE:
 
 ### Step 1: Provide data for running the force field fitting
@@ -60,3 +58,8 @@ The structure of var.in is as follows:
 
   
   
+<h2> Example : Forcefields for MoSe<sub>2</sub> monolayers</h2>
+  
+### Computed error in specified objectives
+
+<img src="./Media/Picture3.png">
