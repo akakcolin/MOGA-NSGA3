@@ -24,3 +24,9 @@ To run the workflow follow the steps as mentioned below:
   
   `int population_num = 200; // population size for ga.in training`
   
+  *Once these modifications are done compile the code by running Makefile*
+  
+  `make`
+  
+  
+  
